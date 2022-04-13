@@ -21,5 +21,8 @@ DB_CONNECTION=sqlite
 # php artisan ui bootstrap
 npm install 
 npm run dev
+
+php artisan make:model Note -m
+php artisan migrate
 ```
 
