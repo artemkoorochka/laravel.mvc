@@ -5,9 +5,19 @@
 ```composer log
 composer create-project laravel/laravel mvc
 ```
-
-- [Git] https://github.com/artemkoorochka/laravel.mvc.git
-
+[Git] https://github.com/artemkoorochka/laravel.mvc.git
 ```
 git remote add laravel_mvc https://github.com/artemkoorochka/laravel.mvc.git
 ```
+Using in project .env sqlite Create file for DB - database.sqlite
+```
+DB_CONNECTION=sqlite
+```
+
+```
+# php artisan serve
+# composer require laravel/ui
+# php artisan ui:auth
+# php artisan ui bootstrap
+```
+
