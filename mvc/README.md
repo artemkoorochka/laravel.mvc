@@ -19,5 +19,7 @@ DB_CONNECTION=sqlite
 # composer require laravel/ui
 # php artisan ui:auth
 # php artisan ui bootstrap
+npm install 
+npm run dev
 ```
 
